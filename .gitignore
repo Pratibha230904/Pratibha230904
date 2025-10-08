@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.env.local
+.cache/
+.pytest_cache/
+.dist/
+build/
+dist/
+.ipynb_checkpoints/
+.DS_Store
+.data/
+outputs/
+*.parquet
+*.csv
+*.jsonl
+*.log
+# vscode / editor
+.vscode/
+.idea/
