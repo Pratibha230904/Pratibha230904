@@ -84,3 +84,56 @@
 <p align="center">
 <img src="https://visitcount.itsvg.in/api?id=Pratibha230904&icon=0&color=0" />
 </p>
+
+# Twitter Sentiment Analysis (No API Keys)
+
+This project scrapes recent tweets using `snscrape`, performs sentiment analysis using VADER (rule-based) by default, and optionally a Hugging Face transformer model for higher-quality predictions.
+
+## Features
+- Scrape tweets from queries, users, or URLs using `snscrape` (no API keys)
+- VADER sentiment scores (`neg`, `neu`, `pos`, `compound`)
+- Optional transformer model (e.g. `cardiffnlp/twitter-roberta-base-sentiment-latest`)
+- CLI to fetch, analyze, and export as CSV/Parquet/JSONL
+- Dockerfile for easy containerized runs
+
+## Quickstart
+
+```bash
+# Create and activate venv
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Install
+pip install -r requirements.txt
+
+# Example: fetch 200 recent tweets matching a query and analyze with VADER
+python -m twitter_sentiment.cli fetch --query "openai gpt-5" --limit 200 \
+  | python -m twitter_sentiment.cli analyze --analyzer vader \
+  | python -m twitter_sentiment.cli export --format csv --output outputs/openai_gpt5.csv
+```
+
+## CLI Overview
+
+- `fetch`: Scrape tweets via `snscrape` from a query, user, or URL.
+- `analyze`: Compute sentiment using VADER or a transformer model.
+- `export`: Write to CSV, Parquet, or JSONL. Streams from stdin/stdout to chain steps.
+
+See `python -m twitter_sentiment.cli --help` for details.
+
+## Docker
+
+```bash
+# Build
+docker build -t twitter-sentiment .
+
+# Run an example
+docker run --rm -v "$PWD:/app" twitter-sentiment \
+  bash -lc "python -m twitter_sentiment.cli fetch --query 'openai gpt-5' --limit 100 | \
+  python -m twitter_sentiment.cli analyze --analyzer vader | \
+  python -m twitter_sentiment.cli export --format csv --output outputs/demo.csv"
+```
+
+## Notes
+- `snscrape` scrapes public web data; respect rate limits and site ToS.
+- Transformer-based analysis requires more compute; CPU works but slower.
+- Parquet export needs either `pyarrow` or `fastparquet`.
