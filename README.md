@@ -48,14 +48,6 @@
 
 ---
 
-<!-- GitHub Stats -->
-## 📊 GitHub Stats  
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Pratibha230904&theme=radical&hide_border=false&show_icons=true" height="150"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Pratibha230904&theme=radical&hide_border=false" height="150"/>
-</p>
-
----
 
 <!-- Most Used Languages -->
 <p align="center">
