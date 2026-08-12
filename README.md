@@ -7,8 +7,7 @@
 <!-- About Me -->
 ##  About Me
 -  Currently working on **Development**.
-- 💬 Ask me about **HTML, CSS, JavaScript, React, Java, MySQL, PostgreSQL .NET**
-- 📞 Contact me: [📱 8669560797](tel:+918669560797)  
+- 💬 Ask me about **HTML, CSS, JavaScript, React, Java, MySQL, PostgreSQL .NET** 
 - 📫 Connect on [LinkedIn](https://www.linkedin.com/in/pratibha-jha-a4340a290/)  
 
 
