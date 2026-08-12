@@ -7,7 +7,7 @@
 <!-- About Me -->
 ##  About Me
 -  Currently working on **Development**.
-- 💬 Ask me about **HTML, CSS, JavaScript, React, MySQL, Java, .NET,PostgreSQL**
+- 💬 Ask me about **HTML, CSS, JavaScript, React, Java, MySQL, PostgreSQL .NET**
 - 📞 Contact me: [📱 8669560797](tel:+918669560797)  
 - 📫 Connect on [LinkedIn](https://www.linkedin.com/in/pratibha-jha-a4340a290/)  
 
@@ -44,6 +44,10 @@
 <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" />
 <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
 <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+
+<img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/hibernate-%2359666C.svg?style=for-the-badge&logo=hibernate&logoColor=white" />
+<img src="https://img.shields.io/badge/spring%20boot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white" />
 </p>
 
 ---
