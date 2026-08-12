@@ -1,16 +1,16 @@
 <!-- Header -->
-<h1 align="center">Hi 👋, I'm Pratibha Jha</h1>
-<h3 align="center">🚀 Aspiring Full-Stack Developer | DSA Learner | Tech Enthusiast</h3>
+<h1 align="center">Hi, I'm Pratibha Jha</h1>
+<h3 align="center">🚀Java Full-Stack Developer | Tech Enthusiast</h3>
 
 ---
 
 <!-- About Me -->
-## 💫 About Me
-- 🌱 Currently learning **Web Development** & **Data Structures**
-- 💬 Ask me about **HTML, CSS, JavaScript, Python, React, MySQL, C++, .NET**
+##  About Me
+-  Currently working on **Development**.
+- 💬 Ask me about **HTML, CSS, JavaScript, React, MySQL, Java, .NET,PostgreSQL**
 - 📞 Contact me: [📱 8669560797](tel:+918669560797)  
 - 📫 Connect on [LinkedIn](https://www.linkedin.com/in/pratibha-jha-a4340a290/)  
-- ⚡ Fun fact: I turn ☕ coffee into code!
+
 
 ---
 
