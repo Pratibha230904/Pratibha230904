@@ -1,6 +1,6 @@
 <!-- Header -->
 <h1 align="center">Hi, I'm Pratibha Jha</h1>
-<h3 align="center">🚀Java Full-Stack Developer | Tech Enthusiast</h3>
+<h3 align="center">Java Full-Stack Developer | Tech Enthusiast</h3>
 
 ---
 
@@ -54,15 +54,7 @@
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pratibha230904&layout=compact&theme=radical&hide_border=false" height="150"/>
 </p>
 
----
 
-<!-- Trophies -->
-## 🏆 GitHub Trophies  
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Pratibha230904&theme=radical&no-frame=false&no-bg=true&margin-w=4" />
-</p>
-
----
 
 <!-- Quotes -->
 ## ✍️ Random Dev Quote  
